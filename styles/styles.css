@@ -74,16 +74,14 @@ header {
 }
 
 .advantages-container{
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
  }
 
 .team-container{
     
     width: 1200px;  
-    padding-top: 94px;
-    padding-bottom: 94px;
-        
+      
       
 }
 
@@ -94,15 +92,15 @@ header {
 
 .header-container .header-contact-list{
     display: flex;
-    justify-content: space-between;
     margin-left: auto;
 
-}
+}   
 
 .portfolio-container{
-    display: flex;
-  
-        flex-direction: column;
+    display: flex;  
+    flex-direction: column;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .header-list-item{
     padding-top: 32px;
@@ -200,12 +198,10 @@ button.order {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    margin-top: 30px;
     border: none;
     border-radius: 4px;
     padding: 10px 32px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto 0
  
 
 
@@ -238,8 +234,8 @@ button.order:focus {
 }
 .main-act-list{
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 94px;
+    padding-top: 50px;
+    padding-bottom: 94px;
 
 }
 
@@ -262,6 +258,8 @@ button.order:focus {
 
 .team-section{
     background-color: var(--button-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team-list{
     display: flex;
@@ -273,8 +271,8 @@ button.order:focus {
     justify-content: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    margin-bottom: 94px;
-}
+    }
+
 .team-item:not(:last-clild){
     margin-right: 30px;
 
@@ -316,8 +314,7 @@ button.order:focus {
 .filter-list{
     display: flex;
     justify-content: center;
-    padding-top: 94px;
-    padding-bottom: 34px;
+    margin-bottom: 34px;
 
 }
 
@@ -351,7 +348,7 @@ button.filter:focus{
     line-height: 2;        
     letter-spacing: 0.06em;
     padding-top: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     padding-left: 24px;
     }
 
@@ -368,7 +365,7 @@ button.filter:focus{
  .project-list{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
+    
  }
 
  .project-item{
@@ -409,6 +406,6 @@ footer, .banner{
     color: var(--accent-color);
    }
 
-   .address{
+   address{
     margin-top: 20px;
    }
